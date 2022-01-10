@@ -53,7 +53,7 @@ Usage:
 ```
 
 ## Tanzu CLI
-1. Requires VMware Credentials - [VMware Connect](https://customerconnect.vmware.com/downloads/info/slug/infrastructure_operations_management/vmware_tanzu_kubernetes_grid/1_x)
+1. Requires VMware Credentials - [VMware TKG Connect](https://customerconnect.vmware.com/downloads/info/slug/infrastructure_operations_management/vmware_tanzu_kubernetes_grid/1_x)
 2. Navigate to Download TKG, choose binary (~488Mb) and accept EULA
 3. Unpack to /tanzu folder and make available to system
 ```
@@ -66,6 +66,7 @@ version: v1.4.1
 buildDate: 2022-01-04
 sha: 81a92f90
 ```
+5. Worth reading - [Tanzu CLI Documentation](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.4/vmware-tanzu-kubernetes-grid-14/GUID-install-cli.html#download-and-unpack-the-tanzu-cli-and-kubectl-1)
 
 ## Velero CLI
 1. Velero Docs - [Homebrew](https://velero.io/docs/v1.7/basic-install/#option-1-macos---homebrew)
