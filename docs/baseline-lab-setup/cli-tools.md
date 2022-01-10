@@ -11,6 +11,30 @@ This guide assumes a Mac based system and will install the following tools:
 - kind (helpful, but not required)
 - ytt, kapp, imgpkg, kbld (bundled with tkg)
 
+## AWS
+1. General Instructions - [aws cli v2 docs)](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
+2. Download and Install AWS CLI v2.
+```
+$ curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
+sudo installer -pkg AWSCLIV2.pkg -target /
+```
+3. Verify installation
+```
+$ aws --version
+aws-cli/2.4.6 Python/3.8.8 Darwin/20.6.0 exe/x86_64 prompt/off
+```
+4. Configure your AWS credentials for your preferred region
+```
+$ aws configure
+```
+$ aws configure
+AWS Access Key ID [****************4WPI]:
+AWS Secret Access Key [****************3oNF]:
+Default region name [us-east-2]:
+Default output format [json]:
+```
+
+
 ## Kubectl
 1. General instructions - [kubectl docs](https://kubernetes.io/docs/tasks/tools/install-kubectl)
 2. If required, download and install
