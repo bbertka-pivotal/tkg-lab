@@ -73,4 +73,11 @@ $ yq -V
 yq (https://github.com/mikefarah/yq/) version 4.16.2
 ```
 
+## Kind
+1. Install kind - [Kind Docs](https://kind.sigs.k8s.io/docs/user/quick-start#installing-with-a-package-manager)
+```
+$ brew install kind
 
+$ kind version
+kind v0.11.1 go1.16.4 darwin/amd64
+```
