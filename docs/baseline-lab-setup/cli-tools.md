@@ -2,7 +2,7 @@
 
 This guide assumes a Mac based system and will install the following tools:
 
-- kubectl
+- kubectl (version > than bundled Tanzu CLI version)
 - tmc
 - tanzu v1.4.0
 - velero v1.6.2
@@ -53,7 +53,19 @@ Usage:
 ```
 
 ## Tanzu CLI
-1. Requires VMware Credentials - [Tanzu CLI Docs](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.4/vmware-tanzu-kubernetes-grid-14/GUID-install-cli.html#download-and-unpack-the-tanzu-cli-and-kubectl-1)
+1. Requires VMware Credentials - [VMware Connect](https://customerconnect.vmware.com/downloads/info/slug/infrastructure_operations_management/vmware_tanzu_kubernetes_grid/1_x)
+2. Navigate to Download TKG, choose binary (~488Mb) and accept EULA
+3. Unpack to /tanzu folder and make available to system
+```
+$ sudo install core/v1.4.1/tanzu-core-darwin_amd64 /usr/local/bin/tanzu
+```
+4. Verify install (may have to adjust security setting to allow execution)
+```
+$ tanzu version
+version: v1.4.1
+buildDate: 2022-01-04
+sha: 81a92f90
+```
 
 ## Velero CLI
 1. Velero Docs - [Homebrew](https://velero.io/docs/v1.7/basic-install/#option-1-macos---homebrew)
