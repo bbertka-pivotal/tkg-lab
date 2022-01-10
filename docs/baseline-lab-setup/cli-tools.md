@@ -16,26 +16,22 @@ This guide assumes a Mac based system and will install the following tools:
 1. General instructions - [kubectl docs](https://kubernetes.io/docs/tasks/tools/install-kubectl)
 2. Download and install kubectl
 ```
-{
 $ curl -LO "https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/darwin/amd64/kubectl"
 $ chmod +x ./kubectl
 $ sudo mv ./kubectl /usr/local/bin/kubectl
-}
 ```
 3. Check for successful installation
 ```
-{
 $ kubectl version --client
     Client Version: version.Info { 
-    Major:"1",
-    Minor:"18",
-    GitVersion:"v1.18.4",
-    GitCommit:"c96aede7b5205121079932896c4ad89bb93260af",
-    GitTreeState:"clean",
-    BuildDate:"2020-06-17T11:41:22Z",
-    GoVersion:"go1.13.9",
-    Compiler:"gc", 
-    Platform:"darwin/amd64"
+      Major:"1",
+      Minor:"18",
+      GitVersion:"v1.18.4",
+      GitCommit:"c96aede7b5205121079932896c4ad89bb93260af",
+      GitTreeState:"clean",
+      BuildDate:"2020-06-17T11:41:22Z",
+      GoVersion:"go1.13.9",
+      Compiler:"gc", 
+      Platform:"darwin/amd64"
     }
-}
 ```
