@@ -40,7 +40,7 @@ $ kubectl version --client
 2. Download binary (~55Mb) via link at [TMC Automation Center](https://southtanzuseamericas.tmc.cloud.vmware.com/clidownload)
 3. Copy binary to path 
 ```
-chmod +x tmc && mv tmc /usr/local/bin/
+$ chmod +x tmc && mv tmc /usr/local/bin/
 ```
 4. Verify install (may have to adjust security setting to allow execution)
 ```
