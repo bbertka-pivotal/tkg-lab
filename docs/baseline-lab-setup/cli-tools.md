@@ -35,13 +35,13 @@ $ kubectl version --client
     }
 ```
 
-## TMC
+## TMC CLI
 1. Requires TMC Access - [TMC docs](https://docs.vmware.com/en/VMware-Tanzu-Mission-Control/services/tanzumc-using/GUID-7EEBDAEF-7868-49EC-8069-D278FD100FD9.html)
 
 ## Tanzu CLI
 1. Requires VMware Credentials - [Tanzu CLI Docs](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.4/vmware-tanzu-kubernetes-grid-14/GUID-install-cli.html#download-and-unpack-the-tanzu-cli-and-kubectl-1)
 
-## Velero 
+## Velero CLI
 1. Velero Docs - [Homebrew](https://velero.io/docs/v1.7/basic-install/#option-1-macos---homebrew)
 2. Install via Homebrew and check for success
 ```
@@ -50,11 +50,11 @@ $ brew install velero
 $ velero
 Velero is a tool for managing disaster recovery, specifically for Kubernetes
 cluster resources. It provides a simple, configurable, and operationally robust
-way to back up your application state and associated data....
+way to back up your application state and associated data
 ```
 
 ##Helm
-1. Helm Docs - [Helm Install](https://helm.sh/docs/intro/install/)
+1. Helm Docs - [Homebrew](https://helm.sh/docs/intro/install/)
 2. Install Helm and check status
 ```
 $ brew install helm
