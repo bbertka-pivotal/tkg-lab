@@ -7,7 +7,7 @@ This guide assumes a Mac based system and will install the following tools:
 - tanzu v1.4.0
 - velero v1.6.2
 - helm v3
-- [yq v4.12+](https://github.com/mikefarah/yq) (to install use `brew` for Mac and `apt-get` for Linux).
+- yq v4.12+
 - kind (helpful, but not required)
 - ytt, kapp, imgpkg, kbld (bundled with tkg)
 
@@ -53,7 +53,7 @@ cluster resources. It provides a simple, configurable, and operationally robust
 way to back up your application state and associated data
 ```
 
-##Helm
+## Helm
 1. Helm Docs - [Homebrew](https://helm.sh/docs/intro/install/)
 2. Install Helm and check status
 ```
@@ -61,6 +61,16 @@ $ brew install helm
 
 $ helm version
 version.BuildInfo{Version:"v3.7.2", GitCommit:"663a896f4a815053445eec4153677ddc24a0a361", GitTreeState:"clean", GoVersion:"go1.17.3"}
+```
+
+## yq
+1. [yq v4.12+ Docs](https://github.com/mikefarah/yq) 
+2. Install yq and check version
+```
+$ brew install yq
+
+$ yq -V
+yq (https://github.com/mikefarah/yq/) version 4.16.2
 ```
 
 
