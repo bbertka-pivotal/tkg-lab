@@ -79,6 +79,8 @@ Wow, that was awesome, what happened on the other side of the request for platfo
 
 ## Required CLIs
 
+[TKG-Lab Environment Setup](docs/baseline-lab-setup/cli-tools.md)
+
 - kubectl
 - tmc
 - tanzu v1.4.0
