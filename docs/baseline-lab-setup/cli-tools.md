@@ -1,4 +1,4 @@
-# TKG-lab CLI Tools Installation
+# CLI Tools Guide
 
 This guide assumes a Mac based system and will install the following tools:
 
@@ -24,14 +24,8 @@ $ sudo mv ./kubectl /usr/local/bin/kubectl
 $ kubectl version --client
     Client Version: version.Info { 
       Major:"1",
-      Minor:"18",
-      GitVersion:"v1.18.4",
-      GitCommit:"c96aede7b5205121079932896c4ad89bb93260af",
-      GitTreeState:"clean",
-      BuildDate:"2020-06-17T11:41:22Z",
-      GoVersion:"go1.13.9",
-      Compiler:"gc", 
-      Platform:"darwin/amd64"
+      Minor:"23",
+      ...
     }
 ```
 
