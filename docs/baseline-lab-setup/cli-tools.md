@@ -1,4 +1,4 @@
-# Required CLIs
+# TKG-lab CLI Tools Installation
 
 This guide assumes a Mac based system and will install the following tools:
 
