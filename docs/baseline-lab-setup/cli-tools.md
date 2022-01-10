@@ -37,6 +37,20 @@ $ kubectl version --client
 
 ## TMC CLI
 1. Requires TMC Access - [TMC docs](https://docs.vmware.com/en/VMware-Tanzu-Mission-Control/services/tanzumc-using/GUID-7EEBDAEF-7868-49EC-8069-D278FD100FD9.html)
+2. Download binary (~55Mb) via link at [TMC Automation Center](https://southtanzuseamericas.tmc.cloud.vmware.com/clidownload)
+3. Copy binary to path 
+```
+chmod +x tmc && mv tmc /usr/local/bin/
+```
+4. Verify install (may have to adjust security setting to allow execution)
+```
+$ tmc
+____  _ ____
+ | |\/| |___
+
+Usage:
+  tmc [resource|action|helper] [flags]
+```
 
 ## Tanzu CLI
 1. Requires VMware Credentials - [Tanzu CLI Docs](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.4/vmware-tanzu-kubernetes-grid-14/GUID-install-cli.html#download-and-unpack-the-tanzu-cli-and-kubectl-1)
