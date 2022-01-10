@@ -109,3 +109,79 @@ $ brew install kind
 $ kind version
 kind v0.11.1 go1.16.4 darwin/amd64
 ```
+
+## ytt
+1. Navigate to your /tanzu/cli folder 
+2. Unpack the ytt binary and make it executable
+```
+$ gunzip ytt-darwin-amd64-v0.34.0+vmware.1.gz
+$ chmod ugo+x ytt-darwin-amd64-v0.34.0+vmware.1
+```
+3. Move binary to executable location, and rename
+```
+$ mv ./ytt-darwin-amd64-v0.34.0+vmware.1 /usr/local/bin/ytt
+```
+4. Verify and check version
+```
+$ ytt version
+ytt version 0.34.0
+``
+
+## kapp
+1. Navigate to your /tanzu/cli folder
+2. Unpack the kapp binary and make it executable
+```
+$ gunzip kapp-darwin-amd64-v0.37.0+vmware.1.gz
+$ chmod ugo+x kapp-darwin-amd64-v0.37.0+vmware.1
+```
+3. Move binary to executable location, and rename
+```
+$ mv ./kapp-darwin-amd64-v0.37.0+vmware.1 /usr/local/bin/kapp
+```
+4. Verify and check version
+```
+$ kapp version
+kapp version 0.37.0
+
+Succeeded
+``
+
+## kbld
+1. Navigate to your /tanzu/cli folder
+2. Unpack the kbld binary and make it executable
+```
+$ gunzip kbld-darwin-amd64-v0.30.0+vmware.1.gz
+$ chmod ugo+x kbld-darwin-amd64-v0.30.0+vmware.1
+```
+3. Move binary to executable location, and rename
+```
+$ mv ./kbld-darwin-amd64-v0.30.0+vmware.1 /usr/local/bin/kbld
+```
+4. Verify and check version
+```
+$ kbld version
+kbld version 0.30.0
+
+Succeeded
+```
+
+## imgpkg
+1. Navigate to your /tanzu/cli folder
+2. Unpack the imgpkg binary and make it executable
+```
+$ gunzip imgpkg-darwin-amd64-v0.10.0+vmware.1.gz
+$ chmod ugo+x imgpkg-darwin-amd64-v0.10.0+vmware.1
+```
+3. Move binary to executable location, and rename
+```
+$ mv ./imgpkg-darwin-amd64-v0.10.0+vmware.1 /usr/local/bin/imgpkg
+
+```
+4. Verify and check version
+```
+$ imgpkg version
+imgpkg version 0.10.0
+
+Succeeded
+```
+
