@@ -19,7 +19,7 @@ $ curl -LO "https://storage.googleapis.com/kubernetes-release/release/$(curl -s 
 $ chmod +x ./kubectl
 $ sudo mv ./kubectl /usr/local/bin/kubectl
 ```
-3. Check for successful installation
+3. Check for version
 ```
 $ kubectl version --client
     Client Version: version.Info { 
@@ -43,7 +43,7 @@ $ kubectl version --client
 
 ## Velero CLI
 1. Velero Docs - [Homebrew](https://velero.io/docs/v1.7/basic-install/#option-1-macos---homebrew)
-2. Install via Homebrew and check for success
+2. Install via Homebrew and check
 ```
 $ brew install velero
 
@@ -55,7 +55,7 @@ way to back up your application state and associated data
 
 ## Helm
 1. Helm Docs - [Homebrew](https://helm.sh/docs/intro/install/)
-2. Install Helm and check status
+2. Install Helm and check version
 ```
 $ brew install helm
 
@@ -74,7 +74,8 @@ yq (https://github.com/mikefarah/yq/) version 4.16.2
 ```
 
 ## Kind
-1. Install kind - [Kind Docs](https://kind.sigs.k8s.io/docs/user/quick-start#installing-with-a-package-manager)
+1. Kind Docs [homebrew](https://kind.sigs.k8s.io/docs/user/quick-start#installing-with-a-package-manager)
+2. Install and check version 
 ```
 $ brew install kind
 
