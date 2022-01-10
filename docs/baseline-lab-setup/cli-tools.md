@@ -2,7 +2,7 @@
 
 This guide assumes a Mac based system and will install the following tools:
 
-- kubectl (version > than bundled Tanzu CLI version)
+- kubectl (version >= than bundled Tanzu CLI version)
 - tmc
 - tanzu v1.4.0
 - velero v1.6.2
