@@ -13,7 +13,7 @@ This guide assumes a Mac based system and will install the following tools:
 
 ## Kubectl
 1. General instructions - [kubectl docs](https://kubernetes.io/docs/tasks/tools/install-kubectl)
-2. Download and install kubectl
+2. If required, download and install
 ```
 $ curl -LO "https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/darwin/amd64/kubectl"
 $ chmod +x ./kubectl
@@ -125,7 +125,7 @@ $ mv ./ytt-darwin-amd64-v0.34.0+vmware.1 /usr/local/bin/ytt
 ```
 $ ytt version
 ytt version 0.34.0
-``
+```
 
 ## kapp
 1. Navigate to your /tanzu/cli folder
@@ -144,7 +144,7 @@ $ kapp version
 kapp version 0.37.0
 
 Succeeded
-``
+```
 
 ## kbld
 1. Navigate to your /tanzu/cli folder
@@ -184,4 +184,3 @@ imgpkg version 0.10.0
 
 Succeeded
 ```
-
