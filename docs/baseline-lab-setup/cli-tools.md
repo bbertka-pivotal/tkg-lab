@@ -10,6 +10,7 @@ This guide assumes a Mac based system and will install the following tools:
 - yq v4.12+
 - kind (helpful, but not required)
 - ytt, kapp, imgpkg, kbld (bundled with tkg)
+- jq
 
 ## Kubectl
 1. General instructions - [kubectl docs](https://kubernetes.io/docs/tasks/tools/install-kubectl)
@@ -177,4 +178,17 @@ $ imgpkg version
 imgpkg version 0.10.0
 
 Succeeded
+```
+
+## jq
+1. Install and check
+```
+$ brew install jq
+
+$ jq --help
+jq - commandline JSON processor [version 1.6]
+
+Usage:	jq [options] <jq filter> [file...]
+        jq [options] --args <jq filter> [strings...]
+        jq [options] --jsonargs <jq filter> [JSON_TEXTS...]
 ```
